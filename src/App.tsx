@@ -89,7 +89,7 @@ function App() {
           ) : (
             <div className='center-content zoom-in'>
             <img className='zoom-in' style={{height:'200px'}} alt='bears with hearts' src='https://media.tenor.com/hpgCwxnBaK8AAAAi/milk-and-mocha.gif' />
-            <div className='text text-color-black' style={{fontSize: 40}}> Will you be my <strong>Valentine?</strong> 🥺</div>
+            <div className='text text-color-black' style={{fontSize: 40}}>  <strong>Lubu</strong>. Will you be my <strong>Valentine?</strong> 🥺</div>
             <div>
               <button className='yes-button yes-button:hover' onClick={() => setYesPressed(true)} style={{fontSize: yesButtonSize}}>Yes</button>
               <button className='no-button no-button:hover' onClick={handleNoClick} style={{fontSize: noButtonSize}}>{getNoButtonText()}</button>
